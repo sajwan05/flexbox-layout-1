@@ -39,8 +39,8 @@ body {
 
 .header,
 .footer {
-    padding: 0.5rem;
-
+    padding: 1rem;
+    background: #eee;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +72,9 @@ button {
 .left-links,
 .right-links {
     list-style-type: none;
+
+    display: flex;
+    gap: 1rem;
 }
 
 ul a {
