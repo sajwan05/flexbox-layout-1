@@ -63,6 +63,7 @@ input {
 }
 
 button {
+    padding: 0.2rem 0.3rem;
     border-radius: 8px;
     font-size: inherit;
     border: 2px solid #ccc;
