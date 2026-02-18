@@ -37,6 +37,19 @@ body {
     gap: 1rem;
 }
 
+.header,
+.footer {
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background: #eee;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+}
+
 img {
     max-width: 100%;
     width: 650px;
