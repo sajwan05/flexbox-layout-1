@@ -33,4 +33,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+
+img {
+    max-width: 100%;
+    width: 650px;
+}
+
+input {
+    width: 400px;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    padding: 0.3rem 0.5rem;
+}
+
+button {
+    border-radius: 8px;
+    font-size: inherit;
+    border: 2px solid #ccc;
 }
